@@ -1,0 +1,178 @@
+
+  .portfolio-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Header Section */
+  .portfolioheader {
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  
+  .portfolioheader h1 {
+    font-size: 3em;
+    color: #333;
+    margin: 0;
+  }
+  
+  .portfolioheader h2 {
+    font-size: 1.5em;
+    color: #555;
+    margin: 5px 0;
+  }
+  
+  /* Section Styling */
+  .portfolio-section {
+    margin-bottom: 40px;
+  }
+  
+  .portfolio-section h3 {
+    font-size: 2em;
+    color: #007bff;
+    border-bottom: 2px solid #007bff;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .portfolio-section p {
+    font-size: 1.2em;
+    color: #333;
+  }
+  
+  /* About Section */
+  .portfolio-about-grid {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .portfolio-about-details {
+    width: 48%;
+    background-color: #f9f9f9;
+    padding: 15px;
+    border-radius: 8px;
+  }
+  
+  .portfolio-about-details p {
+    font-size: 1em;
+    color: #555;
+  }
+  
+  .portfolio-about-details p strong {
+    color: #333;
+  }
+  
+  .portfolio-about-details a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .portfolio-about-details a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Stats Section */
+  .portfolio-stats-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 20px;
+  }
+  
+  .portfolio-stat {
+    background-color: #007bff;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  .portfolio-stat h4 {
+    font-size: 2em;
+    margin: 0;
+  }
+  
+  .portfolio-stat p {
+    font-size: 1.2em;
+    margin-top: 5px;
+  }
+  
+  /* Skills Section */
+  .portfolio-skills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+  }
+  
+  .portfolio-skill {
+    background-color: #f9f9f9;
+    padding: 15px;
+    border-radius: 8px;
+  }
+  
+  .portfolio-skill label {
+    font-size: 1.2em;
+    color: #333;
+    margin-bottom: 10px;
+    display: block;
+  }
+  
+  .portfolio-progress-bar {
+    background-color: #e0e0e0;
+    border-radius: 8px;
+    width: 100%;
+    height: 20px;
+    position: relative;
+  }
+  
+  .portfolio-progress {
+    background-color: #007bff;
+    height: 100%;
+    border-radius: 8px;
+    transition: width 0.4s ease;
+  }
+  
+  /* Experience Section */
+  .portfolio-experience-item {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+  }
+  
+  .portfolio-experience-item h4 {
+    font-size: 1.5em;
+    color: #333;
+    margin: 0;
+  }
+  
+  .portfolio-experience-item p {
+    font-size: 1.1em;
+    color: #555;
+    margin: 5px 0;
+  }
+  
+  .portfolio-experience-item ul {
+    list-style-type: disc;
+    padding-left: 20px;
+  }
+  
+  .portfolio-experience-item ul li {
+    font-size: 1em;
+    color: #555;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .portfolio-about-grid {
+      flex-direction: column;
+    }
+  
+    .portfolio-about-details {
+      width: 100%;
+      margin-bottom: 20px;
+    }
+  }
+  

@@ -1,0 +1,159 @@
+.home {
+    padding: 20px 0;
+  }
+  
+  .hero-section {
+    background-color: #f8f9fa;
+    padding: 50px 0;
+    margin-bottom: 30px;
+  }
+  
+  .hero-section h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+  }
+  
+  .hero-section p {
+    font-size: 24px;
+    margin-bottom: 30px;
+  }
+  
+  .featured-coupons-section {
+    margin-bottom: 30px;
+  }
+  
+  .featured-coupons-section h2 {
+    margin-bottom: 20px;
+  }
+  
+  .coupon-card {
+    margin-bottom: 20px;
+  }
+  
+  .benefits-section {
+    background-color: #f8f9fa;
+    padding: 30px 0;
+  }
+  
+  .benefits-section h2 {
+    margin-bottom: 30px;
+  }
+  
+  .benefit-item {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .benefit-item h4 {
+    margin-bottom: 10px;
+  }
+  
+  /* CouponCards.css */
+
+/* Modern Card Style */
+.modern-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border: none;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.modern-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Increased Card Size */
+.card-large {
+  width: 100%;
+  height: 500px; /* Adjust height as needed */
+  max-width: 350px;
+  margin: auto; /* Center the card */
+}
+
+/* Card Title Single Line */
+.card-title-single-line {
+  font-size: 1.5rem;
+  font-weight: bold;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* Card Text as Paragraph */
+.card-text-paragraph {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+/* Custom Button */
+.custom-button {
+  font-size: 0.8rem;
+  padding: 10px 20px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  border-radius: 8px;
+  float: left;
+}
+/* 
+.custom-button:hover {
+  background-color: #28a745;
+  transform: scale(1.05);
+} */
+
+/* Ensure cards are responsive */
+@media (max-width: 768px) {
+  .modern-card {
+    margin-bottom: 20px;
+  }
+  .card-large {
+    height: auto; /* Adjust height for smaller screens */
+    max-width: 100%; /* Full width for smaller screens */
+  }
+}
+
+/* Testimonial Section */
+.testimonial-card {
+  background-color: #ffffff;
+  border: 1px solid #e1e1e1;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  padding: 20px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.testimonial-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.testimonial-card .card-title {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.testimonial-card .card-text {
+  font-size: 1rem;
+  color: #555;
+  font-style: italic;
+  margin-bottom: 15px;
+}
+
+.testimonial-card .btn {
+  background-color: #007bff;
+  border-color: #007bff;
+  color: #ffffff;
+  font-size: 0.9rem;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-transform: uppercase;
+}
+
+.testimonial-card .btn:hover {
+  background-color: #0056b3;
+  border-color: #004080;
+}
+
